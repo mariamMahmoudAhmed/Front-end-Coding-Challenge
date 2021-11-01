@@ -1,0 +1,29 @@
+html, body, .root {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+body, .app {
+  background: white;
+}
+
+.card {
+  width: 100%;
+  max-width: 590px;
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+  border: 1px solid #dad7d7;
+  border-radius: 3px;
+}
+.img-size{
+  width: 30%;
+  height: 30%;
+  align-items: right; 
+}
+.center {
+  text-align: center;
+}
